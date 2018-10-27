@@ -20,17 +20,17 @@ export default {
       tabs: [
         {
           key: 'work',
-          value: '工作经验',
+          value: 'a',
           iconfont: 'user',
           link: '/work'
         }, {
           key: 'project',
-          value: '项目经验',
+          value: 'b',
           iconfont: 'user',
           link: '/project'
         }, {
           key: 'user',
-          value: '我的',
+          value: 'c',
           iconfont: 'user',
           link: '/user'
         }

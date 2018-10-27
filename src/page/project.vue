@@ -1,7 +1,6 @@
 <!-- index -->
 <template>
   <div class="project">
-    项目
     <mt-button type="danger">danger</mt-button>
   </div>
 </template>
