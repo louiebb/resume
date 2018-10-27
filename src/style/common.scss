@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.container{
+  overflow-x: hidden;
+  height: 100%;
+}
+.bottom {
+  height: 52px;
+}
+.flexbox{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .container{
+    flex: 1;
+  }
+}
+li,
+img,
+label,
+input {
+  vertical-align: middle;
+}
+
+img{
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
